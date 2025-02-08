@@ -10,33 +10,33 @@ const Navbar = () => {
       <nav className="container mx-auto flex items-center justify-between">
         {/* Left Links */}
         <div className="flex space-x-6">
-          <Link href="#" className="links">
+          <Link href="/services" className="links">
             Services
           </Link>
-          <Link href="#" className="links">
+          <Link href="/work" className="links">
             Works
           </Link>
-          <Link href="#" className="links">
+          <Link href="/aboutus" className="links">
             About
           </Link>
         </div>
 
         {/* Logo */}
         <div className="text-center">
-          <Link href="#" >
+          <Link href="/" >
             <Image alt="Logo" src={Logo} height={40}  />
           </Link>
         </div>
 
         {/* Right Links */}
         <div className="flex space-x-6">
-          <Link href="#" className="links">
+          <Link href="/people" className="links">
             Team
           </Link>
-          <Link href="#" className="links">
+          <Link href="/states" className="links">
             Achievements
           </Link>
-          <Link href="#" className="links">
+          <Link href="/contact" className="links">
             Contacts
           </Link>
           <div className="logo ">
