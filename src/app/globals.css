@@ -61,7 +61,7 @@
   height: 100vh;
   /* background-image: url('./public/assets/Crystal-Space-1.jpg'); */
   /* background-image: url('./public/assets/Crystal-Space-1.jpg'); */
-   background-image: url('./public/Crystal-Space-1.jpg'); 
+   background-image: url('./assets/Crystal-Space-1.jpg'); 
   background-size: cover;
   /* background-repeat: no-repeat; */
   background-position: 0px 0px;
@@ -81,7 +81,7 @@
 .cloud {
   width: 100%;
   height: 60vh;
-  background-image: url('./public/Crystal-Clouds-50proc.png');
+  background-image: url('./assets/Crystal-Clouds-50proc.png');
   background-size: cover;
   background-repeat: repeat-x;
   animation: cloud 50s linear infinite;
@@ -101,7 +101,7 @@
 .mountain {
   width: 100%;
   height: 60vh;
-  background-image: url('./public/Crystal-Mountains-2560-1.png');
+  background-image: url('./assets/Crystal-Mountains-2560-1.png');
   background-size: cover;
   margin-top: -110px;
   z-index: 2;

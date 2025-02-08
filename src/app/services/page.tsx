@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Image2 from '@/app/public/5.png';
+import Image2 from '@/app/assets/5.png';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
