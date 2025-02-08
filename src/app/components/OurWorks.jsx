@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Icon1 from "@/public/1.jpg";
-import Icon2 from "@/public/2.jpg";
-import Icon3 from "@/public/3.jpg";
-import Icon4 from "@/public/4.jpg";
-import Icon5 from "@/public/52.jpg";
-import Icon6 from "@/public/6.jpg";
-import Icon7 from "@/public/7.jpg";
-import Icon8 from "@/public/8.jpg";
+import Icon1 from "@/app/public/1.jpg";
+import Icon2 from "@/app/public/2.jpg";
+import Icon3 from "@/app/public/3.jpg";
+import Icon4 from "@/app/public/4.jpg";
+import Icon5 from "@/app/public/52.jpg";
+import Icon6 from "@/app/public/6.jpg";
+import Icon7 from "@/app/public/7.jpg";
+import Icon8 from "@/app/public/8.jpg";
 import { Camera, Share2 } from "lucide-react";
 
 const cards = [

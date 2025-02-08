@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import AboutImg from "@/public/About.png";
+import AboutImg from "@/app/public/About.png";
 
 const About = () => {
   const [animate, setAnimate] = useState(false);

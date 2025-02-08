@@ -1,5 +1,5 @@
 import React from "react";
-import Office from "@/public/19.jpg";
+import Office from "@/app/public/19.jpg";
 import Image from "next/image";
 import { Phone, MapPin, Mail, Clock } from "lucide-react"; // Importing icons
 

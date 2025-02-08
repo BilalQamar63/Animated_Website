@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import ContactImageTop from "@/public/23.jpg"; // Top background image
-import ContactImageBottom from "@/public/25.png"; // Bottom background image
+import ContactImageTop from "@/app/public/23.jpg"; // Top background image
+import ContactImageBottom from "@/app/public/25.png"; // Bottom background image
 import Image from "next/image";
 
 const Contact = () => {

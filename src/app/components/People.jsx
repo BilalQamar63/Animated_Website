@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram, FaSkype } from "react-icons/fa";
-import People1 from "@/public/people-1.jpg";
-import People2 from "@/public/people-2.jpg";
-import People3 from "@/public/people-3.jpg";
+import People1 from "@/app/public/people-1.jpg";
+import People2 from "@/app/public/people-2.jpg";
+import People3 from "@/app/public/people-3.jpg";
 
 const people = [
   {

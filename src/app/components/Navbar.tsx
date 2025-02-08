@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Logo from '../public/assets/logo_3dd292161467eeb8341a60d86cd163de_1x.png';
+import Logo from '../public/logo_3dd292161467eeb8341a60d86cd163de_1x.png';
 import { FaSearch } from 'react-icons/fa';
 
 const Navbar = () => {
