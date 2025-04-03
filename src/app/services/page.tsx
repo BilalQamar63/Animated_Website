@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Image2 from '@/app/assets/5.png';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
@@ -21,7 +20,7 @@ const OurServices = () => {
       {/* Image with hover effect */}
      
         <Image 
-          src={Image2} 
+          src='/assets/5.png'
           alt="Crystal" 
           width={900} 
           height={600} 

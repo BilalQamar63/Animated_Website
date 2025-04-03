@@ -1,5 +1,5 @@
 import React from "react";
-import Office from "@/app/assets/19.jpg";
+// import Office from "@/app/assets/19.jpg";
 import Image from "next/image";
 import { Phone, MapPin, Mail, Clock } from "lucide-react"; // Importing icons
 
@@ -9,7 +9,7 @@ const AboutStudio = () => {
             {/* Background Image */}
             <div className="absolute inset-0">
                 <Image
-                    src={Office}
+                    src='/assets/19.jpg'
                     alt="Office Background"
                     layout="fill"
                     objectFit="cover"

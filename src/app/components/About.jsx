@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import AboutImg from "@/app/assets/About.png";
+// import AboutImg from "@/assets/About.png";
 
 const About = () => {
   const [animate, setAnimate] = useState(false);
@@ -49,7 +49,7 @@ const About = () => {
 
       {/* Image */}
       <div className="mt-8">
-        <Image src={AboutImg} alt="About Image" width={900} height={600} />
+        <Image src='/assets/About.png' alt="About Image" width={900} height={600} />
       </div>
 
       {/* CSS Styles */}

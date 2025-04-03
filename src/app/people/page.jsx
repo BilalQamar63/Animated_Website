@@ -1,9 +1,6 @@
 import React from 'react';
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram, FaSkype } from "react-icons/fa";
-import People1 from "@/app/assets/people-1.jpg";
-import People2 from "@/app/assets/people-2.jpg";
-import People3 from "@/app/assets/people-3.jpg";
 
 
 const people = [
@@ -12,7 +9,7 @@ const people = [
     name: "Tony Wayne",
     role: "Developer",
     number: "+123 456 7890",
-    image: People1,
+    image: '/assets/people-1.jpg',
     description: "Expert in full-stack development with a passion for clean, efficient code.",
     social: {
       github: "#",
@@ -27,7 +24,7 @@ const people = [
     name: "Tony Johnson",
     role: "UI/UX Designer",
     number: "+987 654 3210",
-    image: People2,
+    image: '/assets/people-2.jpg',
     description: "Creative designer focused on crafting beautiful, user-friendly experiences.",
     social: {
       github: "#",
@@ -42,7 +39,7 @@ const people = [
     name: "Michael Smith",
     role: "Project Manager",
     number: "+555 666 7777",
-    image: People3,
+    image: '/assets/people-3.jpg',
     description: "Leader in agile methodologies, ensuring seamless project execution.",
     social: {
       github: "#",

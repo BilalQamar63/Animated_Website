@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "@/app/assets/Logo.png";
+// import Logo from "@/app/assets/Logo.png";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
           {/* Logo & Intro */}
           <div className="lg:col-span-2 flex flex-col items-center  text-center ">
-            <Image src={Logo} alt="Company Logo" width={150} height={80} />
+            <Image src='/assets/Logo.png' alt="Company Logo" width={150} height={80} />
 
             <h2 className="text-2xl font-light mt-4">Your Trusted Partner</h2>
             <p className="text-gray-400 text-sm font-thin mt-2 max-w-md">

@@ -1,24 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import Icon1 from "@/app/assets/1.jpg";
-import Icon2 from "@/app/assets/2.jpg";
-import Icon3 from "@/app/assets/3.jpg";
-import Icon4 from "@/app/assets/4.jpg";
-import Icon5 from "@/app/assets/52.jpg";
-import Icon6 from "@/app/assets/6.jpg";
-import Icon7 from "@/app/assets/7.jpg";
-import Icon8 from "@/app/assets/8.jpg";
 import { Camera, Share2 } from "lucide-react";
 
 const cards = [
-  { id: 1, image: Icon1, text: "Project One" },
-  { id: 2, image: Icon2, text: "Project Two" },
-  { id: 3, image: Icon3, text: "Project Three" },
-  { id: 4, image: Icon4, text: "Project Four" },
-  { id: 5, image: Icon5, text: "Project Five" },
-  { id: 6, image: Icon6, text: "Project Six" },
-  { id: 7, image: Icon7, text: "Project Seven" },
-  { id: 8, image: Icon8, text: "Project Eight" },
+  { id: 1, image: "/assets/1.jpg", text: "Project One" },
+  { id: 2, image: "/assets/2.jpg", text: "Project Two" },
+  { id: 3, image: "/assets/3.jpg", text: "Project Three" },
+  { id: 4, image: "/assets/4.jpg", text: "Project Four" },
+  { id: 5, image: "/assets/52.jpg", text: "Project Five" },
+  { id: 6, image: "/assets/6.jpg", text: "Project Six" },
+  { id: 7, image: "/assets/7.jpg", text: "Project Seven" },
+  { id: 8, image: "/assets/8.jpg", text: "Project Eight" },
 ];
 
 const OurWorks = () => {

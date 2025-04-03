@@ -1,7 +1,5 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import ContactImageTop from "@/app/assets/23.jpg"; // Top background image
-import ContactImageBottom from "@/app/assets/25.png"; // Bottom background image
 import Image from "next/image";
 
 const Contact = () => {
@@ -35,8 +33,8 @@ const Contact = () => {
     <div ref={sectionRef} className="bg-[#3d2e53] relative min-h-screen flex items-center justify-center">
       {/* Background Images */}
       <div className="absolute inset-0">
-        <Image src={ContactImageTop} alt="Top Background" layout="fill" objectFit="cover" />
-        <Image src={ContactImageBottom} alt="Bottom Background" layout="fill" objectFit="cover" />
+        <Image src='/assets/23.jpg' alt="Top Background" layout="fill" objectFit="cover" />
+        <Image src='/assets/25.jpg' alt="Bottom Background" layout="fill" objectFit="cover" />
       </div>
 
       {/* Contact Form (conditionally shown with animation) */}
