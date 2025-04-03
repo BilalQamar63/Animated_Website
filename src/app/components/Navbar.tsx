@@ -36,7 +36,7 @@ const Navbar = () => {
           <Link href="/">
             <Image
               alt="Logo"
-              src="/assets/logo.png"
+              src="/assets/Logo.png"
               height={40}
               width={120}
               priority
